@@ -1,6 +1,7 @@
 package ozzo_validators
 
 import (
+	"github.com/Flaque/filet"
 	"github.com/brianvoe/gofakeit/v5"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/stretchr/testify/assert"
@@ -24,7 +25,7 @@ func TestAll(t *testing.T) {
 		err            string
 	}{
 		{"IsSpaceless", IsSpaceless, "jake_was_here", "jake was here", rules.ErrIsSpaceless.Message()},
-		{"IsPath", IsValidPath, "./readme.md", gofakeit.CreditCard().Number, rules.ErrIsPath.Message()},
+		{"IsPath", IsValidPath, filet.TmpFile(t, "", gofakeit.Sentence(50)).Name(), gofakeit.CreditCard().Number, rules.ErrIsPath.Message()},
 		{"IsIso8601", IsValidIso8601Date, Iso8601String, gofakeit.Date().String(), rules.ErrIsIso8601Date.Message()},
 		{"IsMillisecondDate", IsJavascriptMillisecondDate, MilisecondIsoString, gofakeit.Date().String(), rules.ErrIsMillisecondDate.Message()},
 		{"IsValidPort", IsValidPort, rules.MinPort, rules.MaxPort + 1, rules.ErrIsInvalidPort.Message()},
