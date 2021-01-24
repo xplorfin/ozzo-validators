@@ -2,7 +2,7 @@
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://app.renovatebot.com/dashboard#github/xplorfin/ozzo-validators)
 [![Build status](https://github.com/xplorfin/ozzo-validators/workflows/test/badge.svg)](https://github.com/xplorfin/ozzo-validators/actions?query=workflow%3Atest)
 [![Build status](https://github.com/xplorfin/ozzo-validators/workflows/goreleaser/badge.svg)](https://github.com/xplorfin/ozzo-validators/actions?query=workflow%3Agoreleaser)
-[![](https://godoc.org/github.com/xplorfin/ozzo-validators?status.svg)](https://pkg.go.dev/github.com/xplorfin/ozzo-validators)
+[![GoDoc](https://godoc.org/github.com/xplorfin/ozzo-validators?status.svg)](https://godoc.org/github.com/xplorfin/ozzo-validators)
 
 # Custom Validators for [Ozzo](https://github.com/go-ozzo/ozzo-validation/)
 
