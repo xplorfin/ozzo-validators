@@ -10,7 +10,7 @@ import (
 
 // note: this is for special cases (e.g. form fuzzing) where the custom_validators_test
 // in the parent directory is not appropriate. Most methods _can_ and *should* be tested
-// exlcusively in the parent dir
+// exclusively in the parent dir
 
 func TestIsValidPort(t *testing.T) {
 	// validate all valid ports come back correct
