@@ -4,7 +4,7 @@
 [![Build status](https://github.com/xplorfin/ozzo-validators/workflows/goreleaser/badge.svg)](https://github.com/xplorfin/ozzo-validators/actions?query=workflow%3Agoreleaser)
 [![](https://godoc.org/github.com/xplorfin/ozzo-validators?status.svg)](https://pkg.go.dev/github.com/xplorfin/ozzo-validators)
 
-# Custom Validators for Ozzo
+# Custom Validators for [Ozzo](https://github.com/go-ozzo/ozzo-validation/)
 
 This is a series of custom validators for ozzo used by [entropy](http://entropy.rocks/). In particular this adds a new rule type [`IntRule`](rules/int_rule.go) based on [StringRule](https://pkg.go.dev/github.com/go-ozzo/ozzo-validation#StringRule).
 
