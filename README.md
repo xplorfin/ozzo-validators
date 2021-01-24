@@ -3,6 +3,7 @@
 [![Build status](https://github.com/xplorfin/ozzo-validators/workflows/test/badge.svg)](https://github.com/xplorfin/ozzo-validators/actions?query=workflow%3Atest)
 [![Build status](https://github.com/xplorfin/ozzo-validators/workflows/goreleaser/badge.svg)](https://github.com/xplorfin/ozzo-validators/actions?query=workflow%3Agoreleaser)
 [![GoDoc](https://godoc.org/github.com/xplorfin/ozzo-validators?status.svg)](https://godoc.org/github.com/xplorfin/ozzo-validators)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xplorfin/ozzo-validators)](https://goreportcard.com/report/github.com/xplorfin/ozzo-validators)
 
 # Custom Validators for [Ozzo](https://github.com/go-ozzo/ozzo-validation/)
 
