@@ -1,19 +1,9 @@
 package rules
 
 import (
-	"github.com/asaskevich/govalidator"
 	"github.com/xplorfin/netutils/testutils"
 	"os"
-	"strings"
 )
-
-// check wether or not a string has spaces
-func IsSpaceless(str string) bool {
-	if govalidator.IsNull(str) {
-		return true
-	}
-	return !strings.Contains(str, " ")
-}
 
 // check wether or not a path is valid
 func IsValidPath(path string) bool {

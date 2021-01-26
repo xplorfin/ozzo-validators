@@ -5,10 +5,20 @@ import (
 	"github.com/xplorfin/ozzo-validators/rules"
 )
 
+// str rules
+
+// wether or not a string has spaces
+var (
+	// wether or a not a string contains spaces
+	IsSpaceless = validation.NewStringRuleWithError(rules.IsSpaceless, rules.ErrIsSpaceless)
+	// wether or not a string is numeric
+	IsNumeric = validation.NewStringRuleWithError(rules.IsNumeric, rules.ErrIsNumeric)
+	// wether or not a string is an int
+	IsInt = validation.NewStringRuleWithError(rules.IsInt, rules.ErrIsInt)
+)
+
 // string rules
 var (
-	// wether or not a string has spaces
-	IsSpaceless = validation.NewStringRuleWithError(rules.IsSpaceless, rules.ErrIsSpaceless)
 	// wether or not a path exists on the disk
 	IsValidPath = validation.NewStringRuleWithError(rules.IsValidPath, rules.ErrIsPath)
 	// wether or not a date is a valid iso8601 date
