@@ -26,3 +26,11 @@ func IsInt(str string) bool {
 	}
 	return false
 }
+
+func IsISO8601Date(date string) bool {
+	return iSO8601DateRegex.MatchString(date)
+}
+
+func IsJavascriptMillisecondDate(date string) bool {
+	return millisecondRegex.MatchString(date)
+}
