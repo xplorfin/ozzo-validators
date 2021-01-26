@@ -5,9 +5,17 @@ import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 
+// str rules
 var (
 	// error thrown when string is not spaceless
 	ErrIsSpaceless = validation.NewError("validation_is_spaceless", "must not contain spaces")
+	// error thrown when string is not numeric
+	ErrIsNumeric = validation.NewError("validation_is_numeric", "must be numeric")
+	// error thrown when string is not int
+	ErrIsInt = validation.NewError("validation_is_int", "must be int")
+)
+
+var (
 	// error thrown when path is invalid (or not exists)
 	ErrIsPath = validation.NewError("validation_is_invalid_path", "path is invalid")
 	// error thrown when date is not a valid iso8601 date
