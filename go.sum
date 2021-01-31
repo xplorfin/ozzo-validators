@@ -86,6 +86,8 @@ github.com/valyala/fasthttp v1.19.0/go.mod h1:jjraHZVbKOXftJfsOYoAjaeygpj5hr8erm
 github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a/go.mod h1:v3UYOV9WzVtRmSR+PDvWpU/qWl4Wa5LApYYX4ZtKbio=
 github.com/xplorfin/netutils v0.6.0 h1:wUHJ8GgzjIRGYRM9JWDX1azORCerrZXoTluaS2t9gzw=
 github.com/xplorfin/netutils v0.6.0/go.mod h1:T54nW7LGk7c9gW66rESPf7wn61heU5E5lySNI3slLic=
+github.com/xplorfin/netutils v0.8.0 h1:BETsW7S+l5QAPyTal2paWizOb/LFTWv2uXTNHWyvhwg=
+github.com/xplorfin/netutils v0.8.0/go.mod h1:T54nW7LGk7c9gW66rESPf7wn61heU5E5lySNI3slLic=
 github.com/yudai/gojsondiff v1.0.0 h1:27cbfqXLVEJ1o8I6v3y9lg8Ydm53EKqHXAOMxEGlCOA=
 github.com/yudai/gojsondiff v1.0.0/go.mod h1:AY32+k2cwILAkW1fbgxQ5mUmMiZFgLIV+FBNExI05xg=
 github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 h1:BHyfKlQyqbsFN5p3IfnEUduWvb9is428/nNb5L3U01M=
