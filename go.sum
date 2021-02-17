@@ -91,6 +91,8 @@ github.com/valyala/fasthttp v1.19.0 h1:PfTS4PeH3xDr3WomrDS2ID8lU2GskK1xS3YG6gIpi
 github.com/valyala/fasthttp v1.19.0/go.mod h1:jjraHZVbKOXftJfsOYoAjaeygpj5hr8ermTRJNroD7A=
 github.com/valyala/fasthttp v1.20.0 h1:olTmcnLQeZrkBc4TVgE/BatTo1NE/IvW050AuD8SW+U=
 github.com/valyala/fasthttp v1.20.0/go.mod h1:jjraHZVbKOXftJfsOYoAjaeygpj5hr8ermTRJNroD7A=
+github.com/valyala/fasthttp v1.21.0 h1:fJjaQ7cXdaSF9vDBujlHLDGj7AgoMTMIXvICeePzYbU=
+github.com/valyala/fasthttp v1.21.0/go.mod h1:jjraHZVbKOXftJfsOYoAjaeygpj5hr8ermTRJNroD7A=
 github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a/go.mod h1:v3UYOV9WzVtRmSR+PDvWpU/qWl4Wa5LApYYX4ZtKbio=
 github.com/xplorfin/netutils v0.6.0 h1:wUHJ8GgzjIRGYRM9JWDX1azORCerrZXoTluaS2t9gzw=
 github.com/xplorfin/netutils v0.6.0/go.mod h1:T54nW7LGk7c9gW66rESPf7wn61heU5E5lySNI3slLic=
@@ -100,6 +102,8 @@ github.com/xplorfin/netutils v0.11.0 h1:xygh599ZdwnIH31uNk4jFXLstn2KZAR+saCM+A8M
 github.com/xplorfin/netutils v0.11.0/go.mod h1:mozoGB5l1QmBDD67Q5XJ8++YdV5T3RvS5wrm32v/OnA=
 github.com/xplorfin/netutils v0.12.0 h1:3ZMwGTwMUXR3e2UFMAHpKxsPmpgB+a+g1LEB5BwLEL0=
 github.com/xplorfin/netutils v0.12.0/go.mod h1:adLnvzXzquFCOECHW4MSBuGk+jZ6WHeodPub0rbDiow=
+github.com/xplorfin/netutils v0.13.0 h1:xejchEgdITYGspkcjNCNKVnVU2AMqqx3zNYlRKM6VLo=
+github.com/xplorfin/netutils v0.13.0/go.mod h1:8K9L9L6VKxp7whPRgeJhCB8a2ueMfxwOKNf6Ie3wb/w=
 github.com/yudai/gojsondiff v1.0.0 h1:27cbfqXLVEJ1o8I6v3y9lg8Ydm53EKqHXAOMxEGlCOA=
 github.com/yudai/gojsondiff v1.0.0/go.mod h1:AY32+k2cwILAkW1fbgxQ5mUmMiZFgLIV+FBNExI05xg=
 github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 h1:BHyfKlQyqbsFN5p3IfnEUduWvb9is428/nNb5L3U01M=
