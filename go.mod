@@ -8,5 +8,5 @@ require (
 	github.com/brianvoe/gofakeit/v5 v5.11.2
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/stretchr/testify v1.7.0
-	github.com/xplorfin/netutils v0.21.0
+	github.com/xplorfin/netutils v0.22.0
 )
