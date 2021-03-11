@@ -2,10 +2,11 @@ package rules
 
 import (
 	"fmt"
-	"github.com/Flaque/filet"
-	"github.com/brianvoe/gofakeit/v5"
 	"os"
 	"testing"
+
+	"github.com/Flaque/filet"
+	"github.com/brianvoe/gofakeit/v5"
 )
 
 func TestFileExists(t *testing.T) {

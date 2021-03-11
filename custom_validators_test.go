@@ -2,14 +2,15 @@ package ozzo_validators
 
 import (
 	"fmt"
+	"reflect"
+	"testing"
+
 	"github.com/Flaque/filet"
 	"github.com/brianvoe/gofakeit/v5"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/stretchr/testify/assert"
 	"github.com/xplorfin/netutils/testutils"
 	"github.com/xplorfin/ozzo-validators/rules"
-	"reflect"
-	"testing"
 )
 
 const (
