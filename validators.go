@@ -1,7 +1,7 @@
 package ozzo_validators
 
 import (
-	"github.com/go-ozzo/ozzo-validation/v4"
+	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/xplorfin/ozzo-validators/rules"
 )
 

@@ -1,9 +1,10 @@
 package rules
 
 import (
+	"testing"
+
 	"github.com/brianvoe/gofakeit/v5"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"testing"
 )
 
 // mock true return in rule

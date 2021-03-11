@@ -1,11 +1,12 @@
 package rules
 
 import (
-	"github.com/asaskevich/govalidator"
-	"github.com/brianvoe/gofakeit/v5"
 	"math"
 	"strconv"
 	"testing"
+
+	"github.com/asaskevich/govalidator"
+	"github.com/brianvoe/gofakeit/v5"
 )
 
 // note: this is for special cases (e.g. form fuzzing) where the custom_validators_test

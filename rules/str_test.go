@@ -2,10 +2,11 @@ package rules
 
 import (
 	"fmt"
-	"github.com/brianvoe/gofakeit/v5"
 	"math/rand"
 	"strings"
 	"testing"
+
+	"github.com/brianvoe/gofakeit/v5"
 )
 
 // we fuzz a number of these using a random seed from gofakeit
